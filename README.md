@@ -1,8 +1,9 @@
 # Ino's ThetaScreener Automated Tests
-## This automated ui test runs in a docker container. The steps to run the test after you have cloned the repo are as follows:
+## This automated ui test runs in a docker container and assumes Theta Screener is running locally. The steps to run the test after you have cloned the repo are as follows:
 
 ### Dependencies
 python3
+
 docker
 
 ### Steps
