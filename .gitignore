@@ -1,0 +1,5 @@
+selenium-screenshot*
+.DS_Store
+*output.xml
+*report.html
+*log.html

@@ -1,0 +1,22 @@
+version: '3'
+services:
+  robot:
+    build: 
+      context: .
+      dockerfile: robot-docker/Dockerfile
+    command: bash
+    stdin_open: true
+    tty: true
+    environment:
+      - LOCAL_IP=${LOCAL_IP}
+    volumes: 
+      - /Users/inorodriguez/Documents/projects/thetascreener-automation:/opt
+    depends_on:
+      - chromium
+    links:
+      - chromium
+    container_name: robot
+  chromium:
+    image: seleniarm/standalone-chromium:4.0.0-beta-1-20210215
+    ports:
+      - "4444"
