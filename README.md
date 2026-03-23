@@ -8,6 +8,7 @@ docker
 ### Steps
 
 Update volumes: in docker-compose-ui-automation-local.yml file to local path of the /thetascreener-automation folder
+
 Open a MacOS terminal window
 Run the command to set your ip address to a local environment variable
 ```
