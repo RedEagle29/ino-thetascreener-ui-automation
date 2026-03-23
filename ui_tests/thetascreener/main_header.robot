@@ -11,7 +11,6 @@ Suite Teardown      Close Browsers
 Clicking Trade On ThetaSwap Button From Main Header Opens ThetaSwap.org In New Tab
     Click Trade On ThetaSwap Button From Main Header
     ThetaSwap Link Should Be Opened In A New Browser Tab
-    [Teardown]  Capture Page Screenshot
     
 
 *** Keywords ***

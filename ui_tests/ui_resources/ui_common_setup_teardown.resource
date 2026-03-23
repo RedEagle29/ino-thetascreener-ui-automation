@@ -46,6 +46,7 @@ Open Browser To Landing Page
 
 Close Browsers
     Run Keyword And Ignore Error    Log Browser Console Entries
+    Capture Page Screenshot
     Close All Browsers
     Sleep    2
 
